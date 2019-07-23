@@ -1,0 +1,79 @@
+{
+    "gitbook": "3.2.3",
+    "title": "IT人员资料收集册",
+    "description": "",
+    "author": "Sean",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+        }
+    },
+    "plugins": [
+        "donate",
+        "splitter",
+        "anchor-navigation-ex",
+        "-sharing",
+        "sharing-plus",
+        "-highlight",
+        "prism",
+        "expandable-chapters"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "weibo",
+                "qq",
+                "qzone",
+                "douban"
+            ]
+        },
+        "donate": {
+            "wechat": "https://ws3.sinaimg.cn/large/006tNc79ly1fyy51c9ek3j30u00u0jsp.jpg",
+            "title": "",
+            "button": "打赏一下",
+            "wechatText": "微信打赏"
+        },
+        "anchor-navigation-ex": {
+            "associatedWithSummary": false,
+            "showLevel": false,
+            "multipleH1": true,
+            "mode": "float",
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "theme-default": {
+            "showLevel": false
+        },
+        "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 2
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        }
+    }
+}
